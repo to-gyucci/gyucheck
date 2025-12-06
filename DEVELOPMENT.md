@@ -26,11 +26,15 @@ flutter pub run build_runner watch --delete-conflicting-outputs
 
 ## 빌드 및 실행
 
+### 개발 가능 디바이스 목록 확인
+flutter devices  
+
 ### 개발 모드 실행
 
 **iOS**
 ```bash
 flutter run -d ios
+# ios 처음 개발시 xcode 사용하여 개발자 등록 필요
 ```
 
 **Android**
